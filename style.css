@@ -156,14 +156,14 @@
             grid-template-columns: repeat(1, 1fr);
         }
         .left-section {
-            grid-row: span 1;
+            grid-column: span 1;
             padding: 1rem 1rem 1rem 1rem;
             background-color: #3C4048;
         }
         .right-section {
             background-color: #B2B2B2;
             display: grid;
-            grid-row: span 1 / span 2;
+            grid-column: span 1;
     }
 }
 }
